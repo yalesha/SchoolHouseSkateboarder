@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9302792825879FB000F4BE69 /* MenuLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9302792725879FB000F4BE69 /* MenuLayer.swift */; };
 		93706C2D258364B600642BA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93706C2C258364B600642BA3 /* AppDelegate.swift */; };
 		93706C2F258364B600642BA3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 93706C2E258364B600642BA3 /* GameScene.sks */; };
 		93706C31258364B600642BA3 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 93706C30258364B600642BA3 /* Actions.sks */; };
@@ -14,9 +15,15 @@
 		93706C35258364B600642BA3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93706C34258364B600642BA3 /* GameViewController.swift */; };
 		93706C38258364B600642BA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93706C36258364B600642BA3 /* Main.storyboard */; };
 		93706C3A258364B800642BA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93706C39258364B800642BA3 /* Assets.xcassets */; };
+		93706C442583795100642BA3 /* Skater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93706C432583795100642BA3 /* Skater.swift */; };
+		93A0EC54258A2CC2009FF8BB /* gem.wav in Resources */ = {isa = PBXBuildFile; fileRef = 93A0EC52258A2CC2009FF8BB /* gem.wav */; };
+		93A0EC55258A2CC2009FF8BB /* jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = 93A0EC53258A2CC2009FF8BB /* jump.wav */; };
+		93A0EC59258A2E62009FF8BB /* sparks.sks in Resources */ = {isa = PBXBuildFile; fileRef = 93A0EC57258A2E62009FF8BB /* sparks.sks */; };
+		93A0EC5A258A2E62009FF8BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93A0EC58258A2E62009FF8BB /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9302792725879FB000F4BE69 /* MenuLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuLayer.swift; sourceTree = "<group>"; };
 		93706C29258364B600642BA3 /* SchoolhouseSkateboarder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolhouseSkateboarder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93706C2C258364B600642BA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93706C2E258364B600642BA3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -26,6 +33,11 @@
 		93706C37258364B600642BA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93706C39258364B800642BA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93706C3B258364B800642BA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93706C432583795100642BA3 /* Skater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skater.swift; sourceTree = "<group>"; };
+		93A0EC52258A2CC2009FF8BB /* gem.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gem.wav; sourceTree = "<group>"; };
+		93A0EC53258A2CC2009FF8BB /* jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jump.wav; sourceTree = "<group>"; };
+		93A0EC57258A2E62009FF8BB /* sparks.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = sparks.sks; sourceTree = "<group>"; };
+		93A0EC58258A2E62009FF8BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +54,8 @@
 		93706C20258364B600642BA3 = {
 			isa = PBXGroup;
 			children = (
+				93A0EC57258A2E62009FF8BB /* sparks.sks */,
+				93A0EC58258A2E62009FF8BB /* Assets.xcassets */,
 				93706C2B258364B600642BA3 /* SchoolhouseSkateboarder */,
 				93706C2A258364B600642BA3 /* Products */,
 			);
@@ -59,12 +73,16 @@
 			isa = PBXGroup;
 			children = (
 				93706C2C258364B600642BA3 /* AppDelegate.swift */,
+				93706C432583795100642BA3 /* Skater.swift */,
+				9302792725879FB000F4BE69 /* MenuLayer.swift */,
 				93706C2E258364B600642BA3 /* GameScene.sks */,
 				93706C30258364B600642BA3 /* Actions.sks */,
 				93706C32258364B600642BA3 /* GameScene.swift */,
 				93706C34258364B600642BA3 /* GameViewController.swift */,
 				93706C36258364B600642BA3 /* Main.storyboard */,
 				93706C39258364B800642BA3 /* Assets.xcassets */,
+				93A0EC52258A2CC2009FF8BB /* gem.wav */,
+				93A0EC53258A2CC2009FF8BB /* jump.wav */,
 				93706C3B258364B800642BA3 /* Info.plist */,
 			);
 			path = SchoolhouseSkateboarder;
@@ -127,9 +145,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93A0EC55258A2CC2009FF8BB /* jump.wav in Resources */,
 				93706C38258364B600642BA3 /* Main.storyboard in Resources */,
+				93A0EC54258A2CC2009FF8BB /* gem.wav in Resources */,
 				93706C2F258364B600642BA3 /* GameScene.sks in Resources */,
 				93706C3A258364B800642BA3 /* Assets.xcassets in Resources */,
+				93A0EC59258A2E62009FF8BB /* sparks.sks in Resources */,
+				93A0EC5A258A2E62009FF8BB /* Assets.xcassets in Resources */,
 				93706C31258364B600642BA3 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +164,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				93706C33258364B600642BA3 /* GameScene.swift in Sources */,
+				93706C442583795100642BA3 /* Skater.swift in Sources */,
+				9302792825879FB000F4BE69 /* MenuLayer.swift in Sources */,
 				93706C35258364B600642BA3 /* GameViewController.swift in Sources */,
 				93706C2D258364B600642BA3 /* AppDelegate.swift in Sources */,
 			);
